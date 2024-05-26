@@ -4,11 +4,11 @@ close all
 
 %
 Tmax=15;
-h=1e-5;
+h=1e-4;
 interval = 0:h:Tmax;
 %
 initial_conditions = [1.15 0];
-m=10;
+m=4;
 
 y = nan(2,length(interval));
 y(:,1) = initial_conditions;

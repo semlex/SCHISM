@@ -7,7 +7,7 @@ Tmax=350;
 h=1e-3;
 interval = 0:h:Tmax;
 %
-initial_conditions = [1.6 0 -0.1];
+initial_conditions = [1.6 0.0 -0.1];
 a=0.2;
 b=0.2;
 c=5.7;

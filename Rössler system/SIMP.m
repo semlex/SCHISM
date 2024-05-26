@@ -3,7 +3,7 @@ clear
 close all
 %
 Tmax=350;
-h=1e-5;
+h=1e-3;
 hl = h * 0.5;
 interval = 0:h:Tmax;
 %
